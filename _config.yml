@@ -1,0 +1,37 @@
+highlighter: rouge
+markdown: kramdown
+rdiscount:
+  extensions: [smart]
+permalink: :title.html
+paginate: 5
+plugins: [jekyll-paginate]
+safe: true
+url: http://VishargShah.github.io/vitae
+author: Fábio Madeira
+
+# edit this section with your information
+# jekyller.github.io - all contents run on /vitae/
+# for a normal use at the base of the server change it to "/"
+title: Visharg Shah's Resume
+name: Visharg Shah
+email: vishargshah@gmail.com
+email_full: mailto:vishargshah@gmail.com
+website: github.io/sustain
+website_full: https://VishargShah.github.io/sustain
+github: VishargShah
+twitter: Visharg
+tel: +91 9699027136
+tel_full: tel:+919699027136
+google_maps: 'https://www.google.com/maps/place/Om+Yamuna+Cooperative+Housing+Society/@19.4263312,72.8180212,19z/data=!3m1!4b1!4m5!3m4!1s0x3be7a9684ef22d11:0xc975e15f549b3ea3!8m2!3d19.4263299!4d72.8185697'
+address:
+  block: A1/202
+  building: Yamuna Apt.
+  street: Central Park
+  postcode: 401209
+  town: Nallasopara East
+  city: Mumbai
+  country: India
+google_analytics: UA-69300817-1
+
+# needed for travis-ci build
+exclude: [vendor]
